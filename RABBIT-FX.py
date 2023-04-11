@@ -264,7 +264,7 @@ class Fx_py():
                 search1 = self.search
                 search = f'site:pastebin.com "{search1}" password '
                 engine = Google()
-                results = engine.search(search, pages=20)
+                results = engine.search(search, pages=10)
                 print(f'\n    | [+] Please Wait , This May take Up To [2:00 - 3:00 ] \n')
                 for data in results.__dict__['_results']:
                     
